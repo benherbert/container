@@ -1,24 +1,26 @@
 export const menuConfig__LimitedBasic = {
   menuItems = [
     'home': {
-      id: 1,
+      id: 'dashboard',
       label: 'Home'
     },
     'expenses': {
-      id: 9,
+      id: 'expenses',
       label: 'Expenses'
     },
     'invoicing': {
-      id: 10,
+      id: 'invoices',
       label: 'Invoicing'
-    },,
-    'banking': {
-      id: 13,
-      label: 'Banking'
-    },,
-    'account': {
-      id: 15,
-      label: 'Your account details'
     },
+    'banking': {
+      id: 'banking',
+      label: 'Banking',
+      icon: 'wallet'
+    },
+    'account': {
+      id: 'account-details',
+      label: 'Your account details',
+      icon: 'user
+    }
   ]
 }
